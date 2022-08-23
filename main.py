@@ -1,13 +1,8 @@
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
+def login_ocp_prod():
+    servername="https://api.rhocp.prod-cloud1.itcloud.local.vodafone.om:6443"
+    print(servername)
 
 if __name__ == '__main__':
-    print_hi('shafique')
-    print_hi('shafique')
-
+    login_ocp_prod()
 
